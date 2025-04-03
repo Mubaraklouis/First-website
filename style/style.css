@@ -1,0 +1,242 @@
+:root {
+  --mainMmargin: 1.6rem;
+  --primary-color: #5997f4;
+  --mainPaddng: 1.6rem;
+  --borderRadius: 1.5rem;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  margin: var(--mainMmargin);
+}
+
+.com {
+  color: var(--primary-color);
+}
+
+.nav-items {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.hero-section-wrapper {
+  margin-top: 6rem;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-text h1 {
+  padding-bottom: var(--mainPaddng);
+}
+
+.hero-text p {
+  padding-bottom: var(--mainPaddng);
+}
+
+.test-border {
+  border: 1px solid red;
+}
+
+.hero-img img {
+  border-radius: var(--borderRadius);
+  box-shadow: 1px 1px 2px 3px rgb(0, 0, 0, 0.1);
+}
+
+.services {
+  margin: 50px;
+}
+
+.services h1 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.service {
+  background-color: #c3d6eb;
+  width: 300px;
+  border: 0.5px solid #caedd9;
+
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.service-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.service-text {
+  padding: 20px;
+}
+
+.service-text h3 {
+  margin-bottom: 20px;
+}
+
+.service-text p {
+  margin-bottom: 20px;
+}
+
+.service-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.porfolio-parent h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.porfolio-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+
+.porfolio h3 {
+  margin-bottom: 30px;
+}
+
+.porfolio div p {
+  margin-bottom: 30px;
+}
+
+.porfolio-image img {
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 0.5px solid aliceblue;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Contact-parent {
+  margin-top: 30px;
+}
+
+.Contact-parent h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Contact {
+  display: flex;
+  justify-content: center;
+}
+
+.Contact form {
+  background-color: #007bff;
+  width: 500px;
+  padding: 20px;
+  border: 0.5px solid #caedd9;
+  border-radius: 20px;
+}
+
+.Contact form label {
+  display: block;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Contact form input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 0.6px solid #caedd9;
+}
+
+.Contact form textarea {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: o.6 solid #caedd9;
+}
+.Submit-button {
+  color: aliceblue;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  border: none;
+  height: 1.9rem;
+  width: 5.4rem;
+  top: 1.8rem;
+  left: 61.8rem;
+  margin-top: 30px;
+}
+
+.footer-content{
+  
+}
+
+test-border{
+  border: solid rgb(20, 19, 19);
+  height: 200px;
+
+}
+
+.footer-wrapper{
+  display: flex;
+  gap: 6rem;
+}
+
+.footer-icons{
+  height: 2rem;
+  width: 2rem;
+}
+
+.icons-wrapper{
+  display: flex;
+  margin-top: 2rem;
+  gap: 10px;
+}
+
+.footer-content h1{
+  margin-top:1rem;
+  margin-bottom: 1rem;
+}
+
+footer{
+  margin-top: 6rem;
+  background-color:#5997f4;
+}

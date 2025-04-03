@@ -3,27 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My agency</title>
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <!-- this is the start of navbar -->
-    <nav>
-      <h1>LOGO</h1>
+    <nav class="navbar">
+      <h1>Dig<span class="com">Com</span></h1>
 
-      <ul>
+      <ul class="nav-items">
         <li>Home</li>
         <li>Blog</li>
         <li>Contact</li>
         <li>About</li>
       </ul>
+
+      <button class="btn">Subscribe</button>
     </nav>
     <!-- This is the end of navbar -->
 
     <!-- This is the start of section -->
-    <section>
-      <div>
-        <div>
+    <section class="hero-section-wrapper">
+      <div class="hero-section">
+        <div class="hero-text">
           <h1>Design Your Dream!</h1>
 
           <p>
@@ -31,10 +40,10 @@
             Elevate your Brand with<br />
             Tees,Graphic Design and Trading solutions
           </p>
-          <button>Explore More</button>
+          <button class="btn">Explore More</button>
         </div>
 
-        <div>
+        <div class="hero-img">
           <img
             width="300"
             height="300"
@@ -46,59 +55,65 @@
     </section>
     <!-- The end of the Hero section -->
     <!-- this is the start of services section -->
-    <section>
+    <section class="services">
       <h1>what we can do?</h1>
-      <div>
-        <div>
+      <div class="service-wrapper">
+        <div class="service">
           <img
+            class="service-image"
             width="200"
             height="200"
             src="/assets/images/companyImage.avif"
             alt=""
           />
-          <h3>T-shirt</h3>
-          <div>
+
+          <div class="service-text">
+            <h3>T-shirt</h3>
             <p>Elveate your Brand with custom tees talered to your brand</p>
+            <button class="btn">Read More</button>
           </div>
-          <button>Read More</button>
         </div>
 
-        <div>
+        <div class="service">
           <img
+            class="service-image"
             width="200"
             height="200"
             src="/assets/images/companyImage.avif"
             alt=""
           />
-          <h3>T-shirt</h3>
-          <div>
+
+          <div class="service-text">
+            <h3 class>T-shirt</h3>
             <p>Elveate your Brand with custom tees talered to your brand</p>
+            <button class="btn">Read More</button>
           </div>
-          <button>Read More</button>
         </div>
 
-        <div>
+        <div class="service">
           <img
+            class="service-image"
             width="200"
             height="200"
             src="/assets/images/companyImage.avif"
             alt=""
           />
-          <h3>T-shirt</h3>
-          <div>
+
+          <div class="service-text">
+            <h3>T-shirt</h3>
             <p>Elveate your Brand with custom tees talered to your brand</p>
+            <button class="btn">Read More</button>
           </div>
-          <button>Read More</button>
         </div>
       </div>
     </section>
     <!-- this is the end of the services section -->
     <!-- This is the start of the porfolio section -->
 
-    <section>
+    <section class="porfolio-parent">
       <h1>Our Porfolio</h1>
-      <div>
-        <div>
+      <div class="porfolio-wrapper">
+        <div class="porfolio">
           <h3>CCTV Camera Installation for clients</h3>
           <div>
             <p>
@@ -106,9 +121,10 @@
               install CCTV cameras across South Sudan
             </p>
           </div>
-          <button>EXplore More</button>
+          <button class="btn">EXplore More</button>
         </div>
-        <div>
+
+        <div class="porfolio-image">
           <img
             width="200"
             height="200"
@@ -118,18 +134,8 @@
         </div>
       </div>
 
-      <div>
-        <div>
-          <h3>CCTV Camera Installation for clients</h3>
-          <div>
-            <p>
-              We worked with over 150 bussinesss and institutions <br />to
-              install CCTV cameras across South Sudan
-            </p>
-          </div>
-          <button>EXplore More</button>
-        </div>
-        <div>
+      <div class="porfolio-wrapper">
+        <div class="porfolio-image">
           <img
             width="200"
             height="200"
@@ -137,8 +143,81 @@
             alt=""
           />
         </div>
+        <div class="porfolio">
+          <h3>CCTV Camera Installation for clients</h3>
+          <div>
+            <p>
+              We worked with over 150 bussinesss and institutions <br />to
+              install CCTV cameras across South Sudan
+            </p>
+          </div>
+          <button class="btn">EXplore More</button>
+        </div>
       </div>
     </section>
+    <!-- End of porfolio section -->
+    <!-- Beginning of Form Section -->
+    <section class="Contact-parent">
+      <h1>Contacts</h1>
+      <div class="Contact">
+        <form action="">
+          <label for="Name">Name</label>
+          <input type="text" placeholder="Enter Name..." />
+          <label for="Email">Email</label>
+          <input type="text" placeholder="Enter Email..." />
+          <label for="Message">Message</label>
+          <textarea placeholder="Enter Message" name="Message"></textarea>
+          <button class="Submit-button">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- End of form section -->
+    <!-- foot section -->
+    <footer>
+    <section>
+    
+      <div class="footer-wrapper">
+        <div class="footer-content test-border">
+          <h1>Digital Company</h1>
+          <div>
+            <p>Get exclusive social media marketing web design <br>facebooks ads and many digital services.</p>
+          </div>
+          <div class="icons-wrapper">
+            <img class="footer-icons" src="/assets/icons/faceboook logo.png" alt="faceboook">
+            <img class="footer-icons" src="/assets/icons/instagram logo.png" alt="Instagram">
+            <img class="footer-icons" src="/assets/icons/twitter logo.png" alt="twitter">
+          </div>
+  
+        </div >
+  
+        <div class="service-content test-border">
+  <h1>Services</h1>
+  <ul>
+    <li>Web design</li>
+    <li>ui/ux front development</li>
+    <li>marketing</li>
+  </ul>
+
+        </div>
+  
+        <div class="links-content test-border">
+          <h1>Important Link</h1>
+          <ul>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Service</li>
+            <li>API</li>
+          </ul>
+        </div>
+  
+       </div>
+        
+       <div>
+        <p>copy right &#169;2025</p>
+       </div>
+    
+     </section>
+    </footer>
   </body>
 </html>
 git config credential.helper 'store
